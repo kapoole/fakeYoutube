@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>yOuTuBe</title>
+
+    <link rel="icon" href="imgs/yt-icon.png">
+
+    <!-- Link to My CSS Sheet-->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <!-- Link to Bulma -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css" integrity="sha256-D9M5yrVDqFlla7nlELDaYZIpXfFWDytQtiV+TaH6F1I=" crossorigin="anonymous">
+
+    <!-- Link to fontawesome icons-->
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    
+
+</head>
+
+<body >
+
+    <!-- NAVBAR -->
+    <nav id="youtube-navbar" class="navbar is-transparent">
+        <div class="navbar-brand">
+            <a class="navbar-item" >
+               <i class="fa fa-bars fa-lg" ></i>
+            </a>
+
+            <a class="navbar-item" href="index.html">
+                <img src="imgs/youtube.png" alt="yOuTuBe logo" width="" height="28">
+            </a>
+        </div>
+      
+        <div id="navbarExampleTransparentExample" class="navbar-menu">
+            <div 
+                class="navbar-start"  class="navbar-start"
+                style="flex-grow: 1; justify-content: center;"
+            >
+              <div class="navbar-item">
+                    <div class="field has-addons">
+                            <p class="control is-expanded">
+                              <input class="input is-small is-expanded " type="text" placeholder="Search">
+                            </p>
+                            <p class="control">
+                              <a class="button is-small is-static ">
+                                <i class="fas fa-search"></i>
+                              </a>
+                            </p>
+                          </div>
+              </div>
+             
+             
+                
+           
+            </div>
+        </div>
+      
+          <div class="navbar-end is-spaced">
+            <a class="navbar-item">
+                <i class="fas fa-video fa-lg"></i>
+            </a>
+
+            <a class="navbar-item">
+              <i class="fas fa-th fa-lg"></i>
+            </a>
+
+            <a class="navbar-item">
+                <i class="fas fa-bell fa-lg"></i>
+            </a>
+
+            <a class="navbar-item">
+                <img src="https://yt3.ggpht.com/a-/AAuE7mBGJhValqDZfc5K_AryNqiynSRQCcut4JaYQw=s88-c-k-c0x00ffffff-no-rj-mo" style="border-radius: 50px;">
+            </a>
+               
+            </div>
+          </div>
+      </nav>
+
+
+
+
+      <div class="columns height-100vh">
+        <aside id="sidebar" class="column sidebar  ">
+
+          <div class="my-menu">
+            <!-- Home Item-->
+              <div class="my-menu-item width-100 bg-blue">
+
+                <div class="navbar selected whole-menu-item">
+                    <div class="navbar-brand">
+                        <a href="index.html" class="navbar-item icon-item selected-icon" >
+                           <i class="fas fa-home fa-lg" ></i>
+                        </a>
+            
+                    </div>
+
+                    <div class="navbar-menu">
+                        <a href="index.html" class="navbar-item word-menu-item">
+                            Home
+                        </a>
+                    </div>
+                  </div>
+                
+              </div>
+
+              <!-- Trending Item-->
+              <div class="my-menu-item width-100 bg-blue">
+
+                  <div class="navbar whole-menu-item">
+                      <div class="navbar-brand">
+                          <a class="navbar-item icon-item" >
+                             <i class="fas fa-fire fa-lg" ></i>
+                          </a>
+              
+                      </div>
+  
+                      <div class="navbar-menu">
+                          <a class="navbar-item word-menu-item">
+                              Trending
+                          </a>
+                      </div>
+                    </div>
+                  
+                </div>
+
+                <!-- Subscriptions-->
+                <div class="my-menu-item width-100 bg-blue">
+
+                    <div class="navbar whole-menu-item">
+                        <div class="navbar-brand">
+                            <a class="navbar-item icon-item" >
+                               <i class="fas fa-list-ul fa-lg" ></i>
+                            </a>
+                
+                        </div>
+    
+                        <div class="navbar-menu">
+                            <a class="navbar-item word-menu-item">
+                                Subscriptions
+                            </a>
+                        </div>
+                      </div>
+                    
+                  </div>
+
+                <!-- Originals -->
+                <div class="my-menu-item width-100 bg-blue">
+
+                    <div class="navbar whole-menu-item">
+                        <div class="navbar-brand">
+                            <a class="navbar-item icon-item" >
+                               <i class="fab fa-youtube fa-lg" ></i>
+                            </a>
+                
+                        </div>
+    
+                        <div class="navbar-menu">
+                            <a class="navbar-item word-menu-item">
+                                Originals
+                            </a>
+                        </div>
+                      </div>
+                    
+                  </div>
+
+          </div>
+
+          <!-- 2nd part-->
+          <div class="my-menu">
+            <!-- Home Item-->
+              <div class="my-menu-item width-100 bg-blue">
+
+                <div class="navbar whole-menu-item">
+                    <div class="navbar-brand">
+                        <a class="navbar-item icon-item" >
+                           <i class="fas fa-folder fa-lg" ></i>
+                        </a>
+            
+                    </div>
+
+                    <div class="navbar-menu">
+                        <a class="navbar-item word-menu-item">
+                            Library
+                        </a>
+                    </div>
+                  </div>
+                
+              </div>
+
+              <!-- Trending Item-->
+              <div class="my-menu-item width-100 bg-blue">
+
+                  <div class="navbar whole-menu-item">
+                      <div class="navbar-brand">
+                          <a class="navbar-item icon-item" >
+                             <i class="fas fa-history fa-lg" ></i>
+                          </a>
+              
+                      </div>
+  
+                      <div class="navbar-menu">
+                          <a class="navbar-item word-menu-item">
+                              History
+                          </a>
+                      </div>
+                    </div>
+                  
+                </div>
+
+                <!-- Subscriptions-->
+                <div class="my-menu-item width-100 bg-blue">
+
+                    <div class="navbar whole-menu-item">
+                        <div class="navbar-brand">
+                            <a class="navbar-item icon-item" >
+                               <i class="fas fa-clock fa-lg" ></i>
+                            </a>
+                
+                        </div>
+    
+                        <div class="navbar-menu">
+                            <a class="navbar-item word-menu-item">
+                                Watch Later
+                            </a>
+                        </div>
+                      </div>
+                    
+                  </div>
+
+                <!-- Originals -->
+                <div class="my-menu-item width-100 bg-blue">
+
+                    <div class="navbar whole-menu-item">
+                        <div class="navbar-brand">
+                            <a class="navbar-item icon-item" >
+                               <i class="fas fa-tag fa-lg" ></i>
+                            </a>
+                
+                        </div>
+    
+                        <div class="navbar-menu">
+                            <a class="navbar-item word-menu-item">
+                                Purchases
+                            </a>
+                        </div>
+                      </div>
+                    
+                  </div>
+
+                  <div class="my-menu-item width-100 bg-blue">
+
+                    <div class="navbar whole-menu-item">
+                        <div class="navbar-brand">
+                            <a class="navbar-item icon-item" >
+                               <i class="fas fa-thumbs-up fa-lg" ></i>
+                            </a>
+                
+                        </div>
+    
+                        <div class="navbar-menu">
+                            <a class="navbar-item word-menu-item">
+                                Liked Videos
+                            </a>
+                        </div>
+                      </div>
+                    
+                  </div>
+
+          </div>
+
+          <!-- Delete to aside-->
+          <div class="my-menu">
+            <!-- Home Item-->
+              <div class="my-menu-item width-100 bg-blue">
+
+                <div class="navbar whole-menu-item">
+                    <div class="navbar-brand">
+                        <a class="navbar-item icon-item" >
+                           <i class="fas fa-cog fa-lg" ></i>
+                        </a>
+            
+                    </div>
+
+                    <div class="navbar-menu">
+                        <a class="navbar-item word-menu-item">
+                            Settings
+                        </a>
+                    </div>
+                  </div>
+                
+              </div>
+
+              <!-- Trending Item-->
+              <div class="my-menu-item width-100 bg-blue">
+
+                  <div class="navbar whole-menu-item">
+                      <div class="navbar-brand">
+                          <a class="navbar-item icon-item" >
+                             <i class="fas fa-flag fa-lg" ></i>
+                          </a>
+              
+                      </div>
+  
+                      <div class="navbar-menu">
+                          <a class="navbar-item word-menu-item">
+                              Report History
+                          </a>
+                      </div>
+                    </div>
+                  
+                </div>
+
+                <!-- Subscriptions-->
+                <div class="my-menu-item width-100 bg-blue">
+
+                    <div class="navbar whole-menu-item">
+                        <div class="navbar-brand">
+                            <a class="navbar-item icon-item" >
+                               <i class="fas fa-question fa-lg" ></i>
+                            </a>
+                
+                        </div>
+    
+                        <div class="navbar-menu">
+                            <a class="navbar-item word-menu-item">
+                                     Help
+                            </a>
+                        </div>
+                      </div>
+                    
+                  </div>
+
+                <!-- Originals -->
+                <div class="my-menu-item width-100 bg-blue">
+
+                    <div class="navbar whole-menu-item">
+                        <div class="navbar-brand">
+                            <a class="navbar-item icon-item" >
+                               <i class="fas fa-comment-alt fa-lg" ></i>
+                            </a>
+                
+                        </div>
+    
+                        <div class="navbar-menu">
+                            <a class="navbar-item word-menu-item">
+                                Send feedback
+                            </a>
+                        </div>
+                      </div>
+                    
+                  </div>
+
+          </div>
+
+          <!-- Terms and Agreements-->
+          <div class="terms">
+            <a class="terms-link" href="terms.html">
+                Terms and Agreements
+            </a>
+          </div>
+          
+         
+
+        </aside>
+
+        <main id="main-cont" class=" term-cont column bg-almost-white ">
+            <img src="imgs/youtube-terms-noback.png">
+
+       
+           
+
+        </main>
+      </div>
+
+    
+
+
+</body>
+
+</html>
+
